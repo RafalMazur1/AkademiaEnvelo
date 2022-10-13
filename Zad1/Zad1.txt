@@ -1,0 +1,11 @@
+1.
+1.A. W jakim celu używa się klas abstrakcyjnych, a w jakim interfejsów?
+1.B. Czym różni się tablica od listy liniowej?
+
+1.A. Klasy abstrakcyjne powinny być używane głównie w przypadku obiektów, które są blisko powiązane,
+natomiast interfejsy najlepiej nadają się do zapewniania wspólnej funkcjonalności klasom niepowiązanym.
+
+1.B. W tablicy musimy zadeklarować rozmiar a rozmiar listy liniowa jest dynamiczny.
+     W przypadku tablic mamy bezpośredni dostęp do każdego element za pomocą indeksu, w przypadku listy należy przejść przez wszystkie poprzednie elementy
+     Dla każdego elementu listy wymagane jest dodatkowe miejsce w pamięci na wskaźnik.
+     Operacje wstawiania i usuwania są trudne w tablicy, ponieważ elementy są przechowywane w sąsiednich lokalizacjach pamięci, a operacje przesuwania są kosztowne.
